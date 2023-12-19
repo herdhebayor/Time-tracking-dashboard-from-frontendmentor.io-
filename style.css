@@ -41,14 +41,15 @@ main{
   justify-content: center;
   align-items: center;
   margin: 0;
+  overflow: scroll;
 }
 
 .wrapper{
-  width: 850px;
+  width: 950px;
   height: fit-content ;
-  min-height: 500px;
+  min-height: 600px;
   display: grid;
-  grid-template-columns: 180px 180px 180px 180px;
+  grid-template-columns: 220px 220px 220px 220px;
   gap: 20px;
   padding: 20px;
 }
