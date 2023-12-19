@@ -48,9 +48,9 @@ main{
   min-width: 950px;
   width: fit-content;
   height: fit-content ;
-  min-height: 600px;
+  min-height: 550px;
   display: grid;
-  grid-template-columns: 230px 230px 230px 230px;
+  grid-template-columns: 220px 220px 220px 220px;
   gap: 20px;
   padding: 20px;
 }
@@ -206,7 +206,7 @@ li.active{
     display: block;
   }
   .wrapper{
-    width: 80%;
+    min-width: 80%;
     grid-template-columns:auto;
     margin: auto;
   }
@@ -245,7 +245,7 @@ li.active{
 }
 @media screen and (max-width:500px){
   wrapper{
-    width: 95%;
+    min-width: 95%;
   }
   .profile-name{
     font-size: 2em;
